@@ -8,14 +8,14 @@
         a: a increased by 1 if positive, else decreased by 2.*/
 
 int func(int number){
+    if(number>=0){
+        number+=1;
+    }
+    else{
+        number-=2;
+    }
     return number;
  }
 void main() {
-    int a=-2;
-    if (a>=0){
-        print(a+1);
-
-    }else {
-        print(a-2);
-    }
+  print(func(-4));
 }

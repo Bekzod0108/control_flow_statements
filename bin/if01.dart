@@ -8,15 +8,19 @@
         a: a increased by 1 if positive, else unchanged.
  */
  int func(int number){
-    return number;
- }
-void main() {
-    int a=-2;
-    if (a>=0){
-        print(a+1);
-
-    }else {
-        print(a);
-    }
     
+    if (number>=0){
+        number+=1;
+    }else{
+        number;
+    }
+         
+
+   
+        
+    
+    return number;
+    }
+void main() {
+   print(func(-3));
 }

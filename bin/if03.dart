@@ -7,19 +7,17 @@
     Returns:
         a: integer*/
 int func(int number){
+    if(number>0){
+        number+=1;
+    }
+    if(number<0){
+        number-2;
+    }
+    if(number==0){
+        print(10);
+    }
     return number;
  }
 void main() {
-    int a=-3;
-    if (a>0){
-        print(a+1);
-    }
-    if(a<0);{
-        print(a);
-    } 
-    if (a==0){
-        print(10);
-    }
-
-    
+print(func(-7));
 }
