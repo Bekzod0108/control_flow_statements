@@ -11,13 +11,13 @@ int func(int number){
         number+=1;
     }
     if(number<0){
-        number-2;
+        number-=2;
     }
     if(number==0){
-        print(10);
+        number=10;
     }
     return number;
  }
 void main() {
-print(func(-7));
+print(func(0));
 }

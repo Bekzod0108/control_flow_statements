@@ -11,4 +11,23 @@
         a: integer
     Returns:
         string: the message to print */
-void main() {}
+        int func(int number){
+            if((number>0)&&(number%2==0)){
+                print('positive even number');
+            }
+            if((number>0)&&(number%2==1)){
+                print('positive odd number');
+            }
+            if((number<0)&&(number%2==0)){
+                print('negative even number');
+            }
+            if((number<0)&&(number%2==1)){
+                print('negative odd number');
+            }
+            if(number==0){
+                print('the number is zero');
+            }
+        }
+void main() {
+  print(func(4));
+}
