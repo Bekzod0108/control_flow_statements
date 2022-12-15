@@ -27,6 +27,7 @@
             if(number==0){
                 print('the number is zero');
             }
+            return 0;
         }
 void main() {
   print(func(4));
