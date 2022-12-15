@@ -31,7 +31,7 @@
              if(temp>=40){
                  print('Very Hot');
                 }
-                return 0;
+            
             }
         
 

@@ -11,7 +11,7 @@ int func(int number){
         number+=1;
     }
     if(number<0){
-        number-=2;
+        number+=2;
     }
     if(number==0){
         number=10;
@@ -19,5 +19,5 @@ int func(int number){
     return number;
  }
 void main() {
-print(func(0));
+print(func(-4));
 }
